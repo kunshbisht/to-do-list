@@ -40,7 +40,7 @@ export default function App() {
 
 	return (
 		<div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 gap-6 px-4">
-			<a href="https://portfolio-jade-pi-98.vercel.app" className="absolute left-5 top-5 text-blue-700 underline">&lt; Back to Portfolio</a>
+			<a href="https://github.com/kunshbisht/portfolio" className="absolute left-5 top-5 text-blue-700 underline">&lt; Back to Portfolio</a>
 			<h1 className="text-5xl font-bold tracking-tight">To-do list</h1>
 
 			{/* Input */}
