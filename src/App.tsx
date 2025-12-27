@@ -40,6 +40,7 @@ export default function App() {
 
 	return (
 		<div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 gap-6 px-4">
+			<a href="https://portfolio-jade-pi-98.vercel.app" className="absolute left-5 top-5 text-blue-700 underline">&lt; Back to Portfolio</a>
 			<h1 className="text-5xl font-bold tracking-tight">To-do list</h1>
 
 			{/* Input */}
@@ -83,7 +84,7 @@ export default function App() {
 									}
 									onClick={() => checkTask(task.id)}
 								>
-									<img className={`h-4 w-4 ${task.done ? '' : 'invert'}`} src="/public/check-solid-full.svg" />
+									<img className={`h-4 w-4 ${task.done ? '' : 'invert'}`} src="/check-solid-full.svg" />
 								</button>
 								<button
 									className="p-2 rounded-lg border-2 border-transparent bg-red-500 hover:bg-red-600 active:bg-red-700 transition"
